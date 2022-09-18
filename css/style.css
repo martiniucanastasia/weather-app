@@ -1,0 +1,42 @@
+.cold {
+  background: linear-gradient(to right top, #65b4df, #6cdbeb);
+}
+.warm {
+  background: linear-gradient(to left top, #ff8e16, #ffed9c);
+}
+#weather {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 3rem;
+}
+p {
+  margin: 5px;
+}
+#get-weather {
+  border-radius: 2rem;
+  border-style: hidden;
+  margin-left: 20px;
+  transition: all 1s;
+  color: white;
+  background: linear-gradient(to left top, #717171, #c1c1c1);
+  padding: 5px;
+}
+#get-weather:hover {
+  background-color: rgb(206, 47, 129);
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+#input-text {
+  border: none;
+  background: linear-gradient(to left top, hsl(321, 94%, 80%), #f67cdd);
+  border-radius: 2rem;
+  padding: 5px;
+  text-align: center;
+}
